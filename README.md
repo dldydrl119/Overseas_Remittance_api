@@ -298,9 +298,7 @@ RootTestModule을 만들어 모든 테스트에서 ConfigService를 공통적으
   Postman 대신 Swagger 문서를 자동으로 생성하여 유지보수 편의성을 높일 필요가 있음
 ---
 
-## Postman
-
-**Postman API**
+### Postman
 ---
 Postman API 로 충분히 테스트가 가능합니다.
 각 API 요청 예제와 응답 예시는 위 내용대로 Postman에서 진행하시면 됩니다.
