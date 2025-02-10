@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: moin-db
+    restart: always
+    environment:
+      POSTGRES_USER: moin
+      POSTGRES_PASSWORD: moin1234
+      POSTGRES_DB: moin  # ✅ 기존 'moindb' → 'moin'으로 수정
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
