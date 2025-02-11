@@ -303,8 +303,5 @@ RootTestModule을 만들어 모든 테스트에서 ConfigService를 공통적으
 Postman API 로 충분히 테스트가 가능합니다.
 각 API 요청 예제와 응답 예시는 위 내용대로 Postman에서 진행하시면 됩니다.
 
-기업과제였지만 재미있게 할 수 있어서 좋았습니다. 
-감사합니다.
-
 
 
