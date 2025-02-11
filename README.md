@@ -1,4 +1,4 @@
-# MOIN Backend 기술 과제
+# MOIN Backend 
 
 > 해외 송금 서비스 백엔드 API 
 
