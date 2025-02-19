@@ -1,8 +1,5 @@
-# MOIN Backend 
-
-> 해외 송금 서비스 백엔드 API 
-
 ## 프로젝트 개요
+> 해외 송금 서비스 백엔드 API
 
 &#x20;**Nest.js + TypeORM + PostgreSQL**을 기반으로 **해외 송금 서비스**의 백엔드 API를 제작했습니다. \
 1\. 회원 가입 API 
@@ -88,7 +85,7 @@ POST {{API_URL}}/user/signup
 {
   "userId": "test@example.com",
   "password": "1234abcd",
-  "name": "홍길동",
+  "name": "이용기",
   "idType": "REG_NO",
   "idValue": "900101-1234567"
 }
@@ -103,7 +100,7 @@ POST {{API_URL}}/user/signup
 }
 ```
 
-비밀번호는 bcrypt로 해싱되어 저장되며, 주민등록번호/사업자번호는 추가로 암호화됩니다.
+비밀번호는 bcrypt로 해싱되어 저장되고 주민등록번호/사업자번호는 추가로 암호화됩니다.
 
 ---
 
